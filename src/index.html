@@ -1,12 +1,36 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <title>Giphy Search</title>
+    <title>Weather</title>
   </head>
   <body>
-    <form class="giphysearch" action="index.html" method="post">
-      <input type="text" id="searchterm">
-      <button type="button" id="search"></button>
-    </form>
+    <div class="container">
+      <h1>Get Weather Conditions From Anywhere!</h1>
+
+      <label for="location">Enter a location:</label>
+      <input id="location" type="text">
+      <button class="btn-success" id="weatherLocation">Get Current Humidity!</button>
+
+      <div class="errors"></div>
+      <div class="showHumidity"></div>
+      <div class="showTemp"></div>
+    </div>
+
+
+    <br>
+    <hr>
+    <br>
+
+
+    <div class="container">
+      <h1>Giphy Search</h1>
+
+      <label for="search">Search term</label>
+      <input id="searchterm" type="text">
+      <button class="btn-success" id="search">Search!</button>
+
+      <div class="errors"></div>
+      <div class="showURL"></div>
+
+    </div>
   </body>
 </html>
